@@ -3,7 +3,6 @@
     <h3>Bem vindo a área de Administração</h3>
     <div class="txtabert">
       <p>Sistema desenvolvido por Carlos Cardozo</p>
-
       <a href="https://www.instagram.com/_cardozzoo_/"><p>@_cardozzoo_</p></a>
       <p>Para acessar o painel de Administração clique no botão abaixo</p>
       <router-link to="/cadastro">
@@ -66,4 +65,5 @@ h3 {
   color: #ffffff;
   cursor: pointer;
 }
+
 </style>

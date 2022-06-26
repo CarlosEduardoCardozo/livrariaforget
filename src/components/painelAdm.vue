@@ -4,6 +4,7 @@
     <router-link to="/">
       <span>Painel de Administração</span>
     </router-link>
+          <img src="public\livrosbemvindo.png" class="imglivro" />
     </div>
   </main>
 </template>
@@ -42,5 +43,11 @@ main {
   text-align: left;
 
   color: #6c3a3a;
+}
+.imglivro {
+  position: absolute;
+  right: 24px;
+  top: 15px;
+  width: 150px;
 }
 </style>

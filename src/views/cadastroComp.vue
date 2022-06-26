@@ -1,11 +1,12 @@
 <template>
   <main>
-    <button></button>
+    <h3>Escolha uma categoria para Cadastrar</h3>
     <div class="categorias">
       <router-link to="/Cadastrar-livro">
         <div class="livro">
           <label for="">Livro</label>
           <ul>
+            <li>Título</li>
             <li>Categoria</li>
             <li>Editora</li>
             <li>Autor</li>
@@ -19,6 +20,7 @@
             <li>Id</li>
             <li>Nome</li>
             <li>Site</li>
+            <li>Telefone</li>
           </ul>
         </div>
       </router-link>
@@ -49,9 +51,9 @@ main {
 
 h3 {
   position: absolute;
-  width: 509px;
-  height: 59px;
-  left: 600px;
+  width: 1080px;
+  height: 359px;
+  left: 300px;
   top: 180px;
 
   font-family: "Montserrat";
